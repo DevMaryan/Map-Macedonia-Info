@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_26bb658945a646b186afacd6faee07b5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_26bb658945a646b186afacd6faee07b5" ></div>
+        
+</body>
+<script>    
+    
+            var map_26bb658945a646b186afacd6faee07b5 = L.map(
+                "map_26bb658945a646b186afacd6faee07b5",
+                {
+                    center: [41.6086, 21.7453],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b78f37d957894057a963b48c0e867473 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_26bb658945a646b186afacd6faee07b5);
+        
+    
+            var feature_group_2dea1842213a48b7950ff4ff453d9d87 = L.featureGroup(
+                {}
+            ).addTo(map_26bb658945a646b186afacd6faee07b5);
+        
+    
+            var marker_3fd809550ca44c36859ec6a9b2e859c8 = L.marker(
+                [41.1231, 20.816],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_bbdad25afa3140fc9feea3b808b5c246 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3fd809550ca44c36859ec6a9b2e859c8.setIcon(icon_bbdad25afa3140fc9feea3b808b5c246);
+        
+    
+        var popup_af263659b45b44d8a37e21a7a064cf07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ac95f7d13f3439ea9bfecb9ed2ffb10 = $(`<div id="html_5ac95f7d13f3439ea9bfecb9ed2ffb10" style="width: 100.0%; height: 100.0%;">695m Охрид Град, 42033  Популација</div>`)[0];
+            popup_af263659b45b44d8a37e21a7a064cf07.setContent(html_5ac95f7d13f3439ea9bfecb9ed2ffb10);
+        
+
+        marker_3fd809550ca44c36859ec6a9b2e859c8.bindPopup(popup_af263659b45b44d8a37e21a7a064cf07)
+        ;
+
+        
+    
+    
+            var marker_3f9d220b9a434222926624ce082f2f0b = L.marker(
+                [41.0297, 21.3292],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_644bc467a8264a328e3826b587d0fb91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3f9d220b9a434222926624ce082f2f0b.setIcon(icon_644bc467a8264a328e3826b587d0fb91);
+        
+    
+        var popup_ece2cdc4bf0345319bbee8381b0258da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9c9bf7ea1ab45daa3bf3b70349f5072 = $(`<div id="html_c9c9bf7ea1ab45daa3bf3b70349f5072" style="width: 100.0%; height: 100.0%;">576m Битола Град, 122173  Популација</div>`)[0];
+            popup_ece2cdc4bf0345319bbee8381b0258da.setContent(html_c9c9bf7ea1ab45daa3bf3b70349f5072);
+        
+
+        marker_3f9d220b9a434222926624ce082f2f0b.bindPopup(popup_ece2cdc4bf0345319bbee8381b0258da)
+        ;
+
+        
+    
+    
+            var marker_031ff54be34a40ac9c4cca8b034e871d = L.marker(
+                [41.1778, 20.6783],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_d3bc64b0ea344657972f05bbb4c600e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_031ff54be34a40ac9c4cca8b034e871d.setIcon(icon_d3bc64b0ea344657972f05bbb4c600e7);
+        
+    
+        var popup_60bf4c6abe8740babed00c6c3a0c35b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df9816d305f64ae5b401a778b7f2890a = $(`<div id="html_df9816d305f64ae5b401a778b7f2890a" style="width: 100.0%; height: 100.0%;">693m Струга Град, 16559  Популација</div>`)[0];
+            popup_60bf4c6abe8740babed00c6c3a0c35b2.setContent(html_df9816d305f64ae5b401a778b7f2890a);
+        
+
+        marker_031ff54be34a40ac9c4cca8b034e871d.bindPopup(popup_60bf4c6abe8740babed00c6c3a0c35b2)
+        ;
+
+        
+    
+    
+            var marker_6a566e96936a463a8db5d40058896ae1 = L.marker(
+                [41.9981, 21.4254],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_3ee81167427544a5a279c49feccdad7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6a566e96936a463a8db5d40058896ae1.setIcon(icon_3ee81167427544a5a279c49feccdad7c);
+        
+    
+        var popup_3c15e3600f7444bd8ab05875b19ec7d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_502a75c996784fc7b7e7b133c9229b38 = $(`<div id="html_502a75c996784fc7b7e7b133c9229b38" style="width: 100.0%; height: 100.0%;">240m Скопје Град, 546824  Популација</div>`)[0];
+            popup_3c15e3600f7444bd8ab05875b19ec7d2.setContent(html_502a75c996784fc7b7e7b133c9229b38);
+        
+
+        marker_6a566e96936a463a8db5d40058896ae1.bindPopup(popup_3c15e3600f7444bd8ab05875b19ec7d2)
+        ;
+
+        
+    
+    
+            var marker_c6a0e3e516cb4856b2bc5252df1dc365 = L.marker(
+                [41.3441, 21.5528],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_921851ad3f454b2aac9cf5e1ae92c912 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c6a0e3e516cb4856b2bc5252df1dc365.setIcon(icon_921851ad3f454b2aac9cf5e1ae92c912);
+        
+    
+        var popup_fc1519f4aee945f7bf3b7b5a07a0d9d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3c96aacdf2e4beb9145fd4469850bec = $(`<div id="html_b3c96aacdf2e4beb9145fd4469850bec" style="width: 100.0%; height: 100.0%;">620m Прилеп Град, 76768  Популација</div>`)[0];
+            popup_fc1519f4aee945f7bf3b7b5a07a0d9d3.setContent(html_b3c96aacdf2e4beb9145fd4469850bec);
+        
+
+        marker_c6a0e3e516cb4856b2bc5252df1dc365.bindPopup(popup_fc1519f4aee945f7bf3b7b5a07a0d9d3)
+        ;
+
+        
+    
+    
+            var marker_70f2162065f04bb38d89d8ec73797448 = L.marker(
+                [42.1323, 21.7257],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_70a2eb73fb4d45cfa2863636c43e20f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_70f2162065f04bb38d89d8ec73797448.setIcon(icon_70a2eb73fb4d45cfa2863636c43e20f6);
+        
+    
+        var popup_08a63951f0474dc58c49b42a7f012649 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c53f72ad72924f2c816581e5678a4bac = $(`<div id="html_c53f72ad72924f2c816581e5678a4bac" style="width: 100.0%; height: 100.0%;">340m Куманово Град, 70842  Популација</div>`)[0];
+            popup_08a63951f0474dc58c49b42a7f012649.setContent(html_c53f72ad72924f2c816581e5678a4bac);
+        
+
+        marker_70f2162065f04bb38d89d8ec73797448.bindPopup(popup_08a63951f0474dc58c49b42a7f012649)
+        ;
+
+        
+    
+    
+            var marker_ad6eebc00bed46278f366386aae50197 = L.marker(
+                [41.4378, 22.6427],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_680e1f4789104f20af8c15178ab0b9cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ad6eebc00bed46278f366386aae50197.setIcon(icon_680e1f4789104f20af8c15178ab0b9cf);
+        
+    
+        var popup_fc5807c523574da7ac657e28723c1b0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c606a014b364c308e7c642e7672fbdb = $(`<div id="html_2c606a014b364c308e7c642e7672fbdb" style="width: 100.0%; height: 100.0%;">233m Струмица Град, 35311  Популација</div>`)[0];
+            popup_fc5807c523574da7ac657e28723c1b0d.setContent(html_2c606a014b364c308e7c642e7672fbdb);
+        
+
+        marker_ad6eebc00bed46278f366386aae50197.bindPopup(popup_fc5807c523574da7ac657e28723c1b0d)
+        ;
+
+        
+    
+    
+            var marker_e6404a58c25d4c0ca1a821fa7788d470 = L.marker(
+                [41.1452, 22.4997],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_727dbd3a06d544c99655ee5eece5303a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e6404a58c25d4c0ca1a821fa7788d470.setIcon(icon_727dbd3a06d544c99655ee5eece5303a);
+        
+    
+        var popup_1f9943d6912b47fda87c27688f5de867 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db3aed8b73144e00af5afc645b41a87d = $(`<div id="html_db3aed8b73144e00af5afc645b41a87d" style="width: 100.0%; height: 100.0%;">60m Гевгелија Град, 15685  Популација</div>`)[0];
+            popup_1f9943d6912b47fda87c27688f5de867.setContent(html_db3aed8b73144e00af5afc645b41a87d);
+        
+
+        marker_e6404a58c25d4c0ca1a821fa7788d470.bindPopup(popup_1f9943d6912b47fda87c27688f5de867)
+        ;
+
+        
+    
+    
+            var marker_d8c33a392f674b34a2fb1df97457bb58 = L.marker(
+                [42.2058, 22.3308],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_faf387257a8f4998b25a7d79ca2c7023 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d8c33a392f674b34a2fb1df97457bb58.setIcon(icon_faf387257a8f4998b25a7d79ca2c7023);
+        
+    
+        var popup_74e1ff7bc3a94281bbc63e0675a9f627 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_897b774afc58411e846d41bcfc8d9c57 = $(`<div id="html_897b774afc58411e846d41bcfc8d9c57" style="width: 100.0%; height: 100.0%;">620m КриваПаланка Град, 14558  Популација</div>`)[0];
+            popup_74e1ff7bc3a94281bbc63e0675a9f627.setContent(html_897b774afc58411e846d41bcfc8d9c57);
+        
+
+        marker_d8c33a392f674b34a2fb1df97457bb58.bindPopup(popup_74e1ff7bc3a94281bbc63e0675a9f627)
+        ;
+
+        
+    
+    
+            var marker_9e5c631aa25643c59572968c168a0229 = L.marker(
+                [41.8026, 20.9089],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_a8a9f3a6354c4aa9b7614c6d844b2a8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9e5c631aa25643c59572968c168a0229.setIcon(icon_a8a9f3a6354c4aa9b7614c6d844b2a8e);
+        
+    
+        var popup_d1cf39e98a154bb1b54a0ca046fa6977 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6d85c410cf14d5986bf4615bab888da = $(`<div id="html_e6d85c410cf14d5986bf4615bab888da" style="width: 100.0%; height: 100.0%;">683m Гостивар Град, 35847  Популација</div>`)[0];
+            popup_d1cf39e98a154bb1b54a0ca046fa6977.setContent(html_e6d85c410cf14d5986bf4615bab888da);
+        
+
+        marker_9e5c631aa25643c59572968c168a0229.bindPopup(popup_d1cf39e98a154bb1b54a0ca046fa6977)
+        ;
+
+        
+    
+    
+            var marker_4257da2f70224ee18a9fc515095422aa = L.marker(
+                [42.0069, 20.9715],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_cf41f2c9cb7a4c06b5a93313c8e09681 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4257da2f70224ee18a9fc515095422aa.setIcon(icon_cf41f2c9cb7a4c06b5a93313c8e09681);
+        
+    
+        var popup_22064beb91794ebfa780e7da420d519e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9e3e93e061d4d3eb0749e39f045c7e8 = $(`<div id="html_e9e3e93e061d4d3eb0749e39f045c7e8" style="width: 100.0%; height: 100.0%;">468m TETOVO Град, 52915  Популација</div>`)[0];
+            popup_22064beb91794ebfa780e7da420d519e.setContent(html_e9e3e93e061d4d3eb0749e39f045c7e8);
+        
+
+        marker_4257da2f70224ee18a9fc515095422aa.bindPopup(popup_22064beb91794ebfa780e7da420d519e)
+        ;
+
+        
+    
+    
+            var marker_a9383cf3cb0e49a7908bdcf9a2ddae3f = L.marker(
+                [41.5133, 21.2174],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_9f1adac364264dfdb4f7798e2de307ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a9383cf3cb0e49a7908bdcf9a2ddae3f.setIcon(icon_9f1adac364264dfdb4f7798e2de307ae);
+        
+    
+        var popup_f237015a34304c2d864c4b23c7d6da96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fac73c7778549d8ba441e622f59cf25 = $(`<div id="html_0fac73c7778549d8ba441e622f59cf25" style="width: 100.0%; height: 100.0%;">550m МакедонскиБрод Град, 7141  Популација</div>`)[0];
+            popup_f237015a34304c2d864c4b23c7d6da96.setContent(html_0fac73c7778549d8ba441e622f59cf25);
+        
+
+        marker_a9383cf3cb0e49a7908bdcf9a2ddae3f.bindPopup(popup_f237015a34304c2d864c4b23c7d6da96)
+        ;
+
+        
+    
+    
+            var marker_f7b4de49fb1c4fe487a11ce852a454a5 = L.marker(
+                [41.4329, 22.0089],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_6b644fd1346348df8d65891c81da28ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f7b4de49fb1c4fe487a11ce852a454a5.setIcon(icon_6b644fd1346348df8d65891c81da28ad);
+        
+    
+        var popup_dfe4a9ddc6934a2c8d69ed58088bc42d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_173515249d104e908ed5025dbaf9d2af = $(`<div id="html_173515249d104e908ed5025dbaf9d2af" style="width: 100.0%; height: 100.0%;">150m Кавадарци Град, 38741  Популација</div>`)[0];
+            popup_dfe4a9ddc6934a2c8d69ed58088bc42d.setContent(html_173515249d104e908ed5025dbaf9d2af);
+        
+
+        marker_f7b4de49fb1c4fe487a11ce852a454a5.bindPopup(popup_dfe4a9ddc6934a2c8d69ed58088bc42d)
+        ;
+
+        
+    
+    
+            var marker_2fd4b08ef63f431c9a4b345eb46e6597 = L.marker(
+                [41.7165, 21.7723],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_51881e947ffe4dc297854664f60b9619 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2fd4b08ef63f431c9a4b345eb46e6597.setIcon(icon_51881e947ffe4dc297854664f60b9619);
+        
+    
+        var popup_7dce3f35fc9c4888a524c140cde51d68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15462661b270418fbde07bbb36f8b2ab = $(`<div id="html_15462661b270418fbde07bbb36f8b2ab" style="width: 100.0%; height: 100.0%;">206m ВЕЛЕС Град, 43716  Популација</div>`)[0];
+            popup_7dce3f35fc9c4888a524c140cde51d68.setContent(html_15462661b270418fbde07bbb36f8b2ab);
+        
+
+        marker_2fd4b08ef63f431c9a4b345eb46e6597.bindPopup(popup_7dce3f35fc9c4888a524c140cde51d68)
+        ;
+
+        
+    
+    
+            var marker_539dd7b3901c4cd1ae6238a55ab67085 = L.marker(
+                [41.5198, 20.5289],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_f9cc6a3d22394688bb39a0c40caf77ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_539dd7b3901c4cd1ae6238a55ab67085.setIcon(icon_f9cc6a3d22394688bb39a0c40caf77ca);
+        
+    
+        var popup_c8b33466b8554d4b8ede6ded2f868ea7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9359713b21454fa6aa3bf2af365df636 = $(`<div id="html_9359713b21454fa6aa3bf2af365df636" style="width: 100.0%; height: 100.0%;">625m Дебар Град, 14561  Популација</div>`)[0];
+            popup_c8b33466b8554d4b8ede6ded2f868ea7.setContent(html_9359713b21454fa6aa3bf2af365df636);
+        
+
+        marker_539dd7b3901c4cd1ae6238a55ab67085.bindPopup(popup_c8b33466b8554d4b8ede6ded2f868ea7)
+        ;
+
+        
+    
+    
+            var marker_738fe35e6b6b4e29b8178ee6ae90dd02 = L.marker(
+                [41.7061, 22.8552],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_63a4ab97b43043148c9348f82f6965b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_738fe35e6b6b4e29b8178ee6ae90dd02.setIcon(icon_63a4ab97b43043148c9348f82f6965b0);
+        
+    
+        var popup_4f2d61f06bec4561bd379217b4c6239e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bac3578652d4c8b96c89dc21bbc020a = $(`<div id="html_9bac3578652d4c8b96c89dc21bbc020a" style="width: 100.0%; height: 100.0%;">986m Берово Град, 7002  Популација</div>`)[0];
+            popup_4f2d61f06bec4561bd379217b4c6239e.setContent(html_9bac3578652d4c8b96c89dc21bbc020a);
+        
+
+        marker_738fe35e6b6b4e29b8178ee6ae90dd02.bindPopup(popup_4f2d61f06bec4561bd379217b4c6239e)
+        ;
+
+        
+    
+    
+            var marker_43b202d3315348fab94122466c3ab746 = L.marker(
+                [41.9709, 22.774],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_7957db431afc4fc8bc5d96cf2861463c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_43b202d3315348fab94122466c3ab746.setIcon(icon_7957db431afc4fc8bc5d96cf2861463c);
+        
+    
+        var popup_c3c9a0b4c37a4da892c20669d2b435fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b073e6168cab405a8202e4c783f24f6a = $(`<div id="html_b073e6168cab405a8202e4c783f24f6a" style="width: 100.0%; height: 100.0%;">640m Делчево Град, 11500  Популација</div>`)[0];
+            popup_c3c9a0b4c37a4da892c20669d2b435fb.setContent(html_b073e6168cab405a8202e4c783f24f6a);
+        
+
+        marker_43b202d3315348fab94122466c3ab746.bindPopup(popup_c3c9a0b4c37a4da892c20669d2b435fb)
+        ;
+
+        
+    
+    
+            var marker_3056ba3ce6ca4c428a8ad0418966d174 = L.marker(
+                [41.5129, 20.9525],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_4d4b36723f1c498c9ecb870807aa4194 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3056ba3ce6ca4c428a8ad0418966d174.setIcon(icon_4d4b36723f1c498c9ecb870807aa4194);
+        
+    
+        var popup_9a87d5317f594ef1bcf735a412de75d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_445f4f2995364a9baf43753de702e83e = $(`<div id="html_445f4f2995364a9baf43753de702e83e" style="width: 100.0%; height: 100.0%;">630m Кичево Град, 27076  Популација</div>`)[0];
+            popup_9a87d5317f594ef1bcf735a412de75d3.setContent(html_445f4f2995364a9baf43753de702e83e);
+        
+
+        marker_3056ba3ce6ca4c428a8ad0418966d174.bindPopup(popup_9a87d5317f594ef1bcf735a412de75d3)
+        ;
+
+        
+    
+    
+            var marker_b40cad6b6ebb4420a5656a5703639401 = L.marker(
+                [42.08, 22.1803],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_67cb69df92af412fbe0bd4625dc9c1f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b40cad6b6ebb4420a5656a5703639401.setIcon(icon_67cb69df92af412fbe0bd4625dc9c1f3);
+        
+    
+        var popup_f1fa30dd34be4f8297f6461b7b51edd6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e2673131bb5419b983f4f95bb60a3c4 = $(`<div id="html_5e2673131bb5419b983f4f95bb60a3c4" style="width: 100.0%; height: 100.0%;">600m Кратово Град, 6924  Популација</div>`)[0];
+            popup_f1fa30dd34be4f8297f6461b7b51edd6.setContent(html_5e2673131bb5419b983f4f95bb60a3c4);
+        
+
+        marker_b40cad6b6ebb4420a5656a5703639401.bindPopup(popup_f1fa30dd34be4f8297f6461b7b51edd6)
+        ;
+
+        
+    
+    
+            var marker_6bdb25b5b7284da8af578b498b7aa919 = L.marker(
+                [41.3706, 21.2502],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_a7d3e9ee28bf4dfda3cfed5ed055da8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6bdb25b5b7284da8af578b498b7aa919.setIcon(icon_a7d3e9ee28bf4dfda3cfed5ed055da8a);
+        
+    
+        var popup_101c859eef8c4c5a9e0f08636eeb0f45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51dd6f62e55940659129fa87f861ac1c = $(`<div id="html_51dd6f62e55940659129fa87f861ac1c" style="width: 100.0%; height: 100.0%;">1350m Крушево Град, 9684  Популација</div>`)[0];
+            popup_101c859eef8c4c5a9e0f08636eeb0f45.setContent(html_51dd6f62e55940659129fa87f861ac1c);
+        
+
+        marker_6bdb25b5b7284da8af578b498b7aa919.bindPopup(popup_101c859eef8c4c5a9e0f08636eeb0f45)
+        ;
+
+        
+    
+    
+            var marker_3e28cf2c8aeb486f87c6999b3e6889b2 = L.marker(
+                [41.4829, 22.0923],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_256357f61c0d4b51b01c9d13d37ca840 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3e28cf2c8aeb486f87c6999b3e6889b2.setIcon(icon_256357f61c0d4b51b01c9d13d37ca840);
+        
+    
+        var popup_4346ce4595e4468293fd59c8cbe3facb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59ea11db4f5e4c8ca81cb240675aa763 = $(`<div id="html_59ea11db4f5e4c8ca81cb240675aa763" style="width: 100.0%; height: 100.0%;">150m Неготино Град, 13284  Популација</div>`)[0];
+            popup_4346ce4595e4468293fd59c8cbe3facb.setContent(html_59ea11db4f5e4c8ca81cb240675aa763);
+        
+
+        marker_3e28cf2c8aeb486f87c6999b3e6889b2.bindPopup(popup_4346ce4595e4468293fd59c8cbe3facb)
+        ;
+
+        
+    
+    
+            var marker_255c4fd0308b4c4e82fdb0e4ced0d1a5 = L.marker(
+                [41.6395, 22.4679],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_9b9494948fd248c78ef262108c1dea7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_255c4fd0308b4c4e82fdb0e4ced0d1a5.setIcon(icon_9b9494948fd248c78ef262108c1dea7f);
+        
+    
+        var popup_2d0ac55e956a4305b57ae3ad213d8585 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79c83c063d304dfa894024d0933229c8 = $(`<div id="html_79c83c063d304dfa894024d0933229c8" style="width: 100.0%; height: 100.0%;">380m Радовиш Град, 16223  Популација</div>`)[0];
+            popup_2d0ac55e956a4305b57ae3ad213d8585.setContent(html_79c83c063d304dfa894024d0933229c8);
+        
+
+        marker_255c4fd0308b4c4e82fdb0e4ced0d1a5.bindPopup(popup_2d0ac55e956a4305b57ae3ad213d8585)
+        ;
+
+        
+    
+    
+            var marker_456c1bcb91e74baab22e22a958b64e7b = L.marker(
+                [41.0903, 21.0133],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_886a8d16702d42c183963b40558b4a31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_456c1bcb91e74baab22e22a958b64e7b.setIcon(icon_886a8d16702d42c183963b40558b4a31);
+        
+    
+        var popup_a1b2076693d14cada20d53b89ced20ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c995d1ddeb2c48d299b27378ae1e7d8b = $(`<div id="html_c995d1ddeb2c48d299b27378ae1e7d8b" style="width: 100.0%; height: 100.0%;">885m Ресен Град, 8748  Популација</div>`)[0];
+            popup_a1b2076693d14cada20d53b89ced20ff.setContent(html_c995d1ddeb2c48d299b27378ae1e7d8b);
+        
+
+        marker_456c1bcb91e74baab22e22a958b64e7b.bindPopup(popup_a1b2076693d14cada20d53b89ced20ff)
+        ;
+
+        
+    
+    
+            var marker_8f726ffe82da4091a1519efc00ed0706 = L.marker(
+                [41.9948, 22.1877],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_4aa6922a30dd4ac2a458eac58b5b1c5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8f726ffe82da4091a1519efc00ed0706.setIcon(icon_4aa6922a30dd4ac2a458eac58b5b1c5b);
+        
+    
+        var popup_63aa30875bf74c93847c4e46cb1ccaa6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a87673f4fbbf4d5db01482153dda9d57 = $(`<div id="html_a87673f4fbbf4d5db01482153dda9d57" style="width: 100.0%; height: 100.0%;">552m Пробиштип Град, 10826  Популација</div>`)[0];
+            popup_63aa30875bf74c93847c4e46cb1ccaa6.setContent(html_a87673f4fbbf4d5db01482153dda9d57);
+        
+
+        marker_8f726ffe82da4091a1519efc00ed0706.bindPopup(popup_63aa30875bf74c93847c4e46cb1ccaa6)
+        ;
+
+        
+    
+    
+            var marker_0e7351b22ef34409a3150e01c3d39ab1 = L.marker(
+                [41.7621, 22.8865],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_57b41eec89ea4948a641c7f5ac4b1082 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0e7351b22ef34409a3150e01c3d39ab1.setIcon(icon_57b41eec89ea4948a641c7f5ac4b1082);
+        
+    
+        var popup_074dd6070b3d4fb1924211dcffd304b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72e4bb8ed7f04e7197d38af708131b19 = $(`<div id="html_72e4bb8ed7f04e7197d38af708131b19" style="width: 100.0%; height: 100.0%;">1010m Пехчево Град, 3237  Популација</div>`)[0];
+            popup_074dd6070b3d4fb1924211dcffd304b9.setContent(html_72e4bb8ed7f04e7197d38af708131b19);
+        
+
+        marker_0e7351b22ef34409a3150e01c3d39ab1.bindPopup(popup_074dd6070b3d4fb1924211dcffd304b9)
+        ;
+
+        
+    
+    
+            var marker_0fc9aed1b21d4fe2b8ffd90c462b377d = L.marker(
+                [41.7464, 22.1997],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_156f28d3e92d4ee9b855c57e7410114e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0fc9aed1b21d4fe2b8ffd90c462b377d.setIcon(icon_156f28d3e92d4ee9b855c57e7410114e);
+        
+    
+        var popup_c5b958c0647c42f0be5c425f194b77c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5641c6fa5125418d8e10f4f58d556cb2 = $(`<div id="html_5641c6fa5125418d8e10f4f58d556cb2" style="width: 100.0%; height: 100.0%;">300m Штип Град, 43652  Популација</div>`)[0];
+            popup_c5b958c0647c42f0be5c425f194b77c0.setContent(html_5641c6fa5125418d8e10f4f58d556cb2);
+        
+
+        marker_0fc9aed1b21d4fe2b8ffd90c462b377d.bindPopup(popup_c5b958c0647c42f0be5c425f194b77c0)
+        ;
+
+        
+    
+    
+            var marker_b7a3c176919842d1b3fd4158d2ebdcd9 = L.marker(
+                [41.8833, 22.5081],
+                {}
+            ).addTo(feature_group_2dea1842213a48b7950ff4ff453d9d87);
+        
+    
+            var icon_e70b6ed8d88e446599632347e80e6b0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b7a3c176919842d1b3fd4158d2ebdcd9.setIcon(icon_e70b6ed8d88e446599632347e80e6b0a);
+        
+    
+        var popup_607e27df08274758b86aecc41668e0bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdc22a9c45b14a90a975555a9ade56a7 = $(`<div id="html_bdc22a9c45b14a90a975555a9ade56a7" style="width: 100.0%; height: 100.0%;">640m Виница Град, 10863  Популација</div>`)[0];
+            popup_607e27df08274758b86aecc41668e0bc.setContent(html_bdc22a9c45b14a90a975555a9ade56a7);
+        
+
+        marker_b7a3c176919842d1b3fd4158d2ebdcd9.bindPopup(popup_607e27df08274758b86aecc41668e0bc)
+        ;
+
+        
+    
+</script>
