@@ -1,5 +1,6 @@
 # Map-Macedonia-Info
 Map Macedonia Info
+<h4>Used <strong>Python</strong> </h4>
 <p>This project was pure enjoyment!</p>
 <p>Fully interactive map of Macedonia, when Macedonian cities are shown and there is pin on each city.</p>
 <h3>City Info</h3>
