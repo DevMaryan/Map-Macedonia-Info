@@ -2,7 +2,7 @@
 Map Macedonia Info
 <h4>Used <strong>Python</strong> to generate HTML/CSS/JAVASCRIPT file.</h4>
 <h4>Python folium and pandas libraries are used for this project</h4>
-<p>File data is included, 'macedonia.csv'</p>
+<p>File data is included, 'macedonia.csv'(city coordinates, population, elevation)</p>
 <p>This project was pure enjoyment!</p>
 <p>Fully interactive map of Macedonia, when Macedonian cities are shown and there is pin on each city.</p>
 <h3>City Info</h3>
